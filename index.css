@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+    --fondo: #252746;
+    --enfasis: #7E4BDE;
+    --letra: white;
+    --input: #3F4273;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: none;
+    text-decoration: none ;
+    color: var(--letra);
+    background-color: var(--fondo);
+}
+.header{
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 1em;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav{
+    display: flex;
+    gap: 1em;
+}
+.header_buttons{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.header_signUp{
+    
+    padding: .5em;
+    border-radius: 5px;
+    background-color: var(--enfasis);
+}
+
+.LogIn{
+    
+    font-family: "Roboto Mono", monospace;
+}
+.imagen_main{
+    padding: 1em;
+    max-width: 300px;
+}
+.contenedor{
+    display: flex;
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 1em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1em;
+}
+.h2{
+    padding-bottom: 1em;
+}
+.input_email{
+    border: none;
+    background-color:var(--input) ;
+    border-radius: 5px;
+    padding: .5em;
+    max-width: 500;
+}
+.input_password{
+    border: none;
+    background-color:var(--input) ;
+    border-radius: 5px;
+    padding: .5em;
+    max-width: 1000px;
+}
+.input_checkbox{
+    border: none;
+    background-color:var(--input) ;
+    border-radius: 5px;
+    padding: .5em;
+    max-width: 1000px;
+}
+.checkbox{
+    display: flex;
+    gap: .5em;
+    font-size: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+}
+.button_signup{
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--enfasis);
+}
